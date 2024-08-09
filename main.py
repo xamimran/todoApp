@@ -37,8 +37,8 @@ def main(author_date, num_commits):
             print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    start_date = datetime.strptime("2023-01-01", '%Y-%m-%d')
-    end_date = datetime.strptime("2023-03-31", '%Y-%m-%d')
+    start_date = datetime.strptime("2024-06-16", '%Y-%m-%d')
+    end_date = datetime.strptime("2024-08-24", '%Y-%m-%d')
     delta_days = (end_date - start_date).days + 1
 
     # Select 60 random days out of the delta_days
